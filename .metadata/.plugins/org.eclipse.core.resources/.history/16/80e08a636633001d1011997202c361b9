@@ -1,0 +1,20 @@
+package Application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//váriaveis auxiliares
+		int aux1 = 0;
+		
+		System.out.print("Digite o número de motoristas: ");
+		int numMot = sc.nextInt();
+		
+		
+		sc.close();
+	}
+
+}

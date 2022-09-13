@@ -1,0 +1,45 @@
+package Application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//Váriaveis que serão utilizadas
+		int numCarta;
+		int numMult;
+		
+		int valorMult;
+		//váriaveis auxiliares
+		int aux1 = 0;
+		int aux2 = 0;
+		
+		System.out.print("Digite o número de motoristas: ");
+		int numMot = sc.nextInt();
+		
+		System.out.println("Digite o número das cartas de cadad motorista: ");
+		while(aux1 < numMot) {
+			aux1++;
+			
+			System.out.print("#" + (aux1) + " ");
+			numCarta = sc.nextInt();
+			if(numCarta >= 1 && numCarta <= 4327) {
+				System.out.println("ok");
+				System.out.println("Digite o número de multas: ");
+				numMult = sc.nextInt();
+				while(aux2 < numMult) {
+					
+				}
+				
+			}else {
+				System.out.println("Numero inválido.");
+			}
+			
+		}
+		
+		sc.close();
+	}
+
+}
